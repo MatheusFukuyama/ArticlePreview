@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 90rem;
+    height: 100vh;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-400);
+    background-color: var(--clr-primary-200);
+    padding: 0 2rem;
+}
+
+h1 {
+    font-size: var(--fs-900);
+    font-weight: 700;
+    color: var(--clr-primary-700);
+    max-width: 27ch;
+}
+
+h2 {
+    font-weight: 700;
+    color: var(--clr-primary-700);
+}
+
+p {
+    max-width: 90ch;
+    color: var(--clr-primary-300);
+}
+
+.leader {
+    color: var(--clr-primary-500);
+}

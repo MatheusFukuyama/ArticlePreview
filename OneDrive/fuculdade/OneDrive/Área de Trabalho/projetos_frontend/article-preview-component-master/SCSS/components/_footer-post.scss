@@ -1,0 +1,12 @@
+.footer-post {
+    display: flex;
+    justify-content: space-between;
+    .user {
+        display: flex;
+
+        img {
+            width: 2.5rem;
+            border-radius: 50%;
+        }
+    }
+}

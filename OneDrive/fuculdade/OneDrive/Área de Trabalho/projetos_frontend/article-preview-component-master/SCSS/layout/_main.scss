@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    max-width: 45.625rem;
+}
+
+.img-drawers img {
+    width: 100%;
+}
+
+.img-drawers {
+    flex-grow: 1;
+}

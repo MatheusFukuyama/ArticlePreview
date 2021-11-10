@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --clr-primary-700: hsl(217, 19%, 35%);
+  --clr-primary-500: hsl(214, 17%, 51%);
+  --clr-primary-300: hsl(212, 23%, 69%);
+  --clr-primary-200: hsl(210, 46%, 95%);
+  --ff-primary: "Manrope", sans-serif;
+  --fs-900: 1.25rem;
+  --fs-400: 0.8125rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 90rem;
+  height: 100vh;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  background-color: var(--clr-primary-200);
+  padding: 0 2rem;
+}
+
+h1 {
+  font-size: var(--fs-900);
+  font-weight: 700;
+  color: var(--clr-primary-700);
+  max-width: 27ch;
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--clr-primary-700);
+}
+
+p {
+  max-width: 90ch;
+  color: var(--clr-primary-300);
+}
+
+.leader {
+  color: var(--clr-primary-500);
+}
+
+main {
+  display: flex;
+  max-width: 45.625rem;
+}
+
+.img-drawers img {
+  width: 100%;
+}
+
+.img-drawers {
+  flex-grow: 1;
+}
+
+.post {
+  display: flex;
+  flex-grow: 3;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: white;
+}
+
+.footer-post {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-post .user {
+  display: flex;
+}
+.footer-post .user img {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=main.css.map */
